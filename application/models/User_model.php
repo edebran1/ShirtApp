@@ -24,5 +24,14 @@ class User_model extends CI_Model
 		{
 			return $this->db->insert("users", $user);
 		}
+
+		public function update_user($user)
+		{
+			$data = array(
+				'image' => $user['image_path']
+				);
+			$this->db->where('id', $user['id']);
+			$this->db->update('users', $data);
+		}
 }
 

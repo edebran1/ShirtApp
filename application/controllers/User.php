@@ -105,7 +105,7 @@ class User extends Main {
                $this->session->set_flashdata('register_success', 'You have successfully registered!');
           }
 
-           redirect('/user/profile');
+           redirect('#');
      }
 
      // processes user logout
