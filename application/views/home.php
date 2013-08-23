@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <?php include("application/templates/header.php"); 
-  include("assets/js/JS.js");
+  
     // include("applications/templates/footer.php");?>
   <meta name="Shirt Buildr, built by screenprinters for screenprinters" content="">
   <meta name="Coding Dojo Bootcamp June 24th 2013" content="Screenprinting layout and design web app">
@@ -126,38 +126,29 @@
             </ol>
             <div class="carousel-inner">
               <div class="item screen active">
-                  <div class="jumbotron plaid">
-                      <h1>Seamless, Affordable Corporate Screenprinting</h1>
-                      <p><a class="btn btn-primary btn-large right">Learn more</a></p>
-                  </div> 
-                <div class="carousel-caption">
-                  <h4>First Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <div class="col-lg-6 plaid">
+                  <h2>Simple Ordering</h2>
+                  <p>Just choose your garment, upload your logo with our design tool, and order as needed.</p>
+                  <p><a class="btn btn-primary" class="right" href="#">View details</a></p>
                 </div>
               </div>
               <div class="item screen1">
-                <div class="jumbotron plaid">
-                    <h1>Seamless, Affordable Corporate Screenprinting</h1>
-                    <p><a class="btn btn-primary btn-large right">Learn more</a></p>
-                </div>
-                <div class="carousel-caption">
-                  <h4>Second Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <div class="col-lg-6 plaid">
+                  <h2>Simple Ordering</h2>
+                  <p>Just choose your garment, upload your logo with our design tool, and order as needed.</p>
+                  <p><a class="btn btn-primary" class="right" href="#">View details</a></p>
                 </div>
               </div>
               <div class="item screen2">
-                <div class="jumbotron plaid">
-                    <h1>Seamless, Affordable Corporate Screenprinting</h1>
-                    <p><a class="btn btn-primary btn-large right">Learn more</a></p>
-                </div>
-                <div class="carousel-caption">
-                  <h4>Third Thumbnail label</h4>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <div class="col-lg-6 plaid">
+                  <h2>Simple Ordering</h2>
+                  <p>Just choose your garment, upload your logo with our design tool, and order as needed.</p>
+                  <p><a class="btn btn-primary" class="right" href="#">View details</a></p>
                 </div>
               </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><</a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">></a>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
           </div>
         </div>
     </div>  

@@ -222,13 +222,22 @@ footer{
 .brown{
 	background-image: -webkit-linear-gradient(rgba(190, 195, 160, 0.5), rgba(190, 195, 160, 0.5)), url(../img/ps_neutral.png);
 }
+.bottom_banner section{
+	/*margin-top: 40px;*/
+}
+.bottom_banner ol{
+	background-color: rgba(50,50,50,0.3);
+	box-shadow: 5px 5px 30px rgba(50,50,50,.8);
+	border-radius: 5px;
+	width:100px;
+}
 .screen{
-	background-image: url(../img/screen2.png); 
+	background-image: url(../img/screen.png); 
   	height:500px;
 
 }
 .screen1{
-	background-image: url(../img/screen.png); 
+	background-image: url(../img/screen1.png); 
   	height:500px;
 
 }
@@ -236,4 +245,17 @@ footer{
 	background-image: url(../img/screen2.png); 
   	height:500px;
 
+}
+
+.api-buttons {
+	margin-top: 20px;
+}
+
+.api-buttons > a {
+	margin-right: 10px;
+}
+
+.price {
+	font-size: 25px !important;
+	line-height: 26px !important;
 }

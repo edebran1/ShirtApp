@@ -24,7 +24,7 @@ class User_model extends CI_Model
 		{
 			return $this->db->insert("users", $user);
 		}
-
+		// updates user with newly uploaded image
 		public function update_user($user)
 		{
 			$data = array(
@@ -33,5 +33,7 @@ class User_model extends CI_Model
 			$this->db->where('id', $user['id']);
 			$this->db->update('users', $data);
 		}
+
+		
 }
 
